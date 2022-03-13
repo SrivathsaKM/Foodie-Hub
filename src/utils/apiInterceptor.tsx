@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosInstance, AxiosResponse, AxiosError } from 'axios';
-export const baseUrl = '';
+export const baseUrl = 'https://api.dev.appknox.codecrane.com/';
 var axiosInstance: AxiosInstance = axios.create();
 axiosInstance.defaults.baseURL = baseUrl;
 axiosInstance.interceptors.request.use(
